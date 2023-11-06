@@ -52,7 +52,7 @@ export default function Search() {
           onChangeText={handleTextDebounce}
           placeholder="Tìm kiếm"
           placeholderTextColor={"lightgray"}
-          className="pb-1 pl-6 flex-1 text-base font-semibold text-white tracking-wider"
+          className="pl-6 h-full text-base font-semibold text-white tracking-wider"
         />
         <TouchableOpacity
           onPress={() => navigation.navigate("Home")}
